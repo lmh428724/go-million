@@ -1,0 +1,22 @@
+server:
+  port: ${SERVER_PORT:100000}
+spring:
+  application:
+    name: Go Million
+article:
+  urls:
+    one: ${ARTICLE_URL_ONE:https://blog.csdn.net/weixin_45884459/article/details/114931331}
+    two: ${ARTICLE_URL_TWO:https://blog.csdn.net/weixin_45884459/article/details/114930439}
+    three: ${ARTICLE_URL_THREE:https://blog.csdn.net/weixin_45884459/article/details/114921852}
+    four: ${ARTICLE_URL_FOUR:https://blog.csdn.net/weixin_45884459/article/details/114921571}
+    five: ${ARTICLE_URL_FIVE:https://blog.csdn.net/weixin_45884459/article/details/114025406}
+    six: ${ARTICLE_URL_SIX:https://blog.csdn.net/weixin_45884459/article/details/113887113}
+    seven: ${ARTICLE_URL_SEVEN:https://blog.csdn.net/weixin_45884459/article/details/112275198}
+    eight: ${ARTICLE_URL_EIGHT:https://blog.csdn.net/weixin_45884459/article/details/111590698}
+    nine: ${ARTICLE_URL_NINE:https://blog.csdn.net/weixin_45884459/article/details/109384150}
+    ten: ${ARTICLE_URL_TEN:https://blog.csdn.net/weixin_45884459/article/details/106840974}
+log:
+  path: ${LOG_PATH:E:/log/go-million}
+
+cronStr:
+  doHttpRequest: ${CRON_HTTPREQUEST:0/6 * * * * *}
