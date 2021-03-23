@@ -1,11 +1,9 @@
 package com.sg.learn.gomillion.job;
 
-import cn.hutool.http.HttpUtil;
-import com.sg.learn.gomillion.entity.AritcleUrl;
-import com.sg.learn.gomillion.service.DoHttpRequest;
+import com.sg.learn.gomillion.article.service.impl.ArticleReadServiceImpl;
+import com.sg.learn.gomillion.article.service.impl.ArticleServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -16,13 +14,13 @@ import org.springframework.stereotype.Component;
 @EnableScheduling
 public class DoHttpRequestJob {
 
-    private final DoHttpRequest doHttpRequest;
+    private final ArticleServiceImpl articleService;
 
     @Scheduled(cron = "${cronStr.doHttpRequest}")
     public void doHttpRequestJob(){
         log.info("####################################################");
         log.info("开始执行定时任务");
-        doHttpRequest.doHttpRequest();
+        articleService.readArticle();
         log.info("定时任务执行完毕");
     }
 

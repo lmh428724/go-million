@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f011c0c3-8a36-4818-8011-429ff88ee85d" name="Default Changelist" comment="" />
+    <list default="true" id="f011c0c3-8a36-4818-8011-429ff88ee85d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/CodeGenerator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/startup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/startup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/entity/AritcleUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/entity/AritcleUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/job/DoHttpRequestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/job/DoHttpRequestJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/GoMillionApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,45 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/job/DoHttpRequestJob.java">
+        <entry file="file://$PROJECT_DIR$/bin/startup.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar!/org/springframework/scheduling/annotation/Scheduled.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -59,29 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/startup.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/startup.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -89,20 +45,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="500">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/entity/AritcleUrl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -120,7 +73,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>收藏</find>
+      <find>114931331</find>
+      <find>export</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>set</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\LearnProject\go-million\src\main\java\com\sg\learn\gomillion</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,19 +93,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/controller/DoRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/impl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/impl/DoHttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/GoMillionApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/bin/restart.bat" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bin/stop.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/entity/AritcleUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/CodeGenerator2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/impl/ArticleReadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/entity/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/mapper/ArticleReadMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/GoMillionApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/CodeGenerator3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/job/DoHttpRequestJob.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/article/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/article/ArticleReadMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/IdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bin/startup.sh" />
         <option value="$PROJECT_DIR$/bin/startup.bat" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -166,16 +141,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="484" />
-    <option name="y" value="130" />
-    <option name="width" value="1300" />
-    <option name="height" value="807" />
+    <option name="x" value="-503" />
+    <option name="width" value="1639" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,24 +195,6 @@
               <item name="go-million" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gomillion" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-million" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-million" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gomillion" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-million" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-million" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,7 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +215,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616399568446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616483920477" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -272,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearnProject\go-million\src\main\java\com\sg\learn\gomillion\tools" />
       <recent name="E:\LearnProject\jeecg-boot-master\go-million\bin" />
       <recent name="E:\LearnProject\jeecg-boot-master\go-million\src\main\resources" />
     </key>
@@ -289,6 +247,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GoMillionApplication">
+    <configuration name="CodeGenerator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sg.learn.gomillion.tools.CodeGenerator2" />
+      <module name="go-million" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sg.learn.gomillion.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sg.learn.gomillion.tools.CodeGenerator3" />
+      <module name="go-million" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sg.learn.gomillion.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sg.learn.gomillion.Test" />
       <module name="go-million" />
@@ -327,8 +311,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGenerator3" />
         <item itemvalue="JUnit.GoMillionApplicationTests.contextLoads" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CodeGenerator2" />
       </list>
     </recent_temporary>
   </component>
@@ -345,48 +331,50 @@
       <workItem from="1616051575785" duration="2144000" />
       <workItem from="1616136919209" duration="9608000" />
       <workItem from="1616379744910" duration="3147000" />
+      <workItem from="1616400519893" duration="12938000" />
+      <workItem from="1616463635213" duration="10496000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 38m 47s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 40m 29s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 41m 33s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 42m 03s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 45m 22s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 47m 07s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 15h 47m 35s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 16h 20m 07s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 16h 21m 09s.xml">
-      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.19 at 16h 23m 52s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 17h 04m 39s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 17h 33m 12s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 17h 33m 42s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 17h 37m 20s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 17h 42m 00s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 18h 51m 36s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 18h 54m 04s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 18h 58m 34s.xml">
+      <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoMillionApplicationTests_contextLoads - 2021.03.22 at 19h 01m 58s.xml">
       <configuration name="GoMillionApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14899000" />
+    <option name="totallyTimeSpent" value="38333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -394,12 +382,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.25813448" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.62621886" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.53737813" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.10520607" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.2635575" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -410,18 +399,20 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.49919355" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18763326" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995567" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -430,11 +421,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="JRebel Executor" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.25813448" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.16765578" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.53737813" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.44793928" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.54013014" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -448,7 +439,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.49919355" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18763326" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -459,10 +450,45 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>CollectionUtils.isEmpty(articleReadMapper.selectByMap(map))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>articleMapper.selectById(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>articleMapper.selectById(id);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>articleMapper.insert(article)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Map map = new HashMap();         map.put(&quot;article_id&quot;,id);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>articleReadMapper.selectByMap(new HashMap&lt;&gt;().put(&quot;article_id&quot;,id))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/controller/DoRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/impl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/IDoHttpRequest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.5.8/hutool-all-5.5.8.jar!/cn/hutool/core/util/RandomUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -506,18 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/GoMillionApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/restart.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -542,87 +556,309 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/com/baomidou/mybatisplus/generator/engine/FreemarkerTemplateEngine.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+        <state relative-caret-position="197">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/entity/AritcleUrl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/com/baomidou/mybatisplus/generator/config/DataSourceConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="108">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/CodeGenerator2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar!/org/springframework/scheduling/annotation/Scheduled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1.jar!/com/baomidou/mybatisplus/core/mapper/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.10.RELEASE/spring-core-5.2.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.10.RELEASE/spring-aop-5.2.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="457" column="22" selection-start-line="457" selection-start-column="22" selection-end-line="457" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/entity/AritcleUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/service/DoHttpRequest.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/entity/ArticleRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="-585">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/IArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/IArticleReadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/learn/gomillion/GoMillionApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/impl/ArticleReadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/CodeGenerator3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/article/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/article/ArticleReadMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mapper/article/ArticleReadMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mapper/article/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="81" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/GoMillionApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/job/DoHttpRequestJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="440">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar!/org/springframework/scheduling/annotation/Scheduled.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.5.8/hutool-all-5.5.8.jar!/cn/hutool/core/lang/generator/SnowflakeGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.5.8/hutool-all-5.5.8.jar!/cn/hutool/core/lang/Snowflake.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.1/mybatis-plus-extension-3.4.1.jar!/com/baomidou/mybatisplus/extension/conditions/AbstractChainWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/tools/IdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/mapper/ArticleReadMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/learn/gomillion/article/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="83" column="39" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="76" column="67" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/startup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="400">
+          <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/startup.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="378">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="500">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>

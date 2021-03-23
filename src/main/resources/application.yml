@@ -1,8 +1,15 @@
 server:
-  port: ${SERVER_PORT:100000}
+  port: ${SERVER_PORT:8087}
 spring:
   application:
     name: Go Million
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_IP:127.0.0.1}:${MYSQL_PORT:3306}/${MYSQL_DB:go_million}?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&&useSSL=true&serverTimezone=Asia/Shanghai
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PWD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
 article:
   urls:
     one: ${ARTICLE_URL_ONE:https://blog.csdn.net/weixin_45884459/article/details/114931331}
@@ -20,3 +27,8 @@ log:
 
 cronStr:
   doHttpRequest: ${CRON_HTTPREQUEST:0/6 * * * * *}
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+snowflake:
+  dataCenterId: 1
+  workerId: 1
