@@ -23,7 +23,7 @@ article:
     nine: ${ARTICLE_URL_NINE:https://blog.csdn.net/weixin_44241243/article/details/123637076}
     ten: ${ARTICLE_URL_TEN:https://blog.csdn.net/weixin_44241243/article/details/123838995}
 log:
-  path: ${LOG_PATH:E:/log/go-million}
+  path: ${LOG_PATH:D:/log/go-million}
 
 cronStr:
   doHttpRequest: ${CRON_HTTPREQUEST:0/6 * * * * *}

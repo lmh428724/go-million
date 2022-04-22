@@ -37,9 +37,6 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
 
     private final AritcleUrl aritcleUrl;
 
-    private final IArticleService articleService;
-
-    private final ArticleReadMapper articleReadMapper;
     private final IArticleReadService articleReadService;
 
     private final IdGenerator idGenerator;
@@ -60,12 +57,11 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
         article.setReadCount(readCount);
         log.info("阅读了{}文章:{},该文章的当前阅读量为:{}", id, title, readCount);
         //校验表单中有无该数据,有则修改,无则添加
-        if (articleService.getById(id) == null) {
-            articleService.save(article);
+        if (this.getById(id) == null) {
+            this.save(article);
         } else {
-            articleService.updateById(article);
+            this.updateById(article);
         }
-
         QueryWrapper<ArticleRead> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("article_id",id);
         queryWrapper.ge("create_time", DateUtil.beginOfDay(new Date()));
