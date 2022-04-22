@@ -6,22 +6,22 @@ spring:
   main:
     allow-bean-definition-overriding: true
   datasource:
-    url: jdbc:mysql://${MYSQL_IP:127.0.0.1}:${MYSQL_PORT:3306}/${MYSQL_DB:go_million}?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&&useSSL=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://${MYSQL_IP:192.168.0.128}:${MYSQL_PORT:3306}/${MYSQL_DB:go_million}?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&&useSSL=true&serverTimezone=Asia/Shanghai
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PWD:root}
     driver-class-name: com.mysql.cj.jdbc.Driver
 article:
   urls:
-    one: ${ARTICLE_URL_ONE:https://blog.csdn.net/weixin_45884459/article/details/114931331}
-    two: ${ARTICLE_URL_TWO:https://blog.csdn.net/weixin_45884459/article/details/114930439}
-    three: ${ARTICLE_URL_THREE:https://blog.csdn.net/weixin_45884459/article/details/114921852}
-    four: ${ARTICLE_URL_FOUR:https://blog.csdn.net/weixin_45884459/article/details/114921571}
-    five: ${ARTICLE_URL_FIVE:https://blog.csdn.net/weixin_45884459/article/details/114025406}
+    one: ${ARTICLE_URL_ONE:https://blog.csdn.net/weixin_45884459/article/details/123383098}
+    two: ${ARTICLE_URL_TWO:https://blog.csdn.net/weixin_45884459/article/details/116484031}
+    three: ${ARTICLE_URL_THREE:https://blog.csdn.net/weixin_45884459/article/details/116920186}
+    four: ${ARTICLE_URL_FOUR:https://blog.csdn.net/weixin_45884459/article/details/115353105}
+    five: ${ARTICLE_URL_FIVE:https://blog.csdn.net/weixin_45884459/article/details/111508104}
     six: ${ARTICLE_URL_SIX:https://blog.csdn.net/weixin_45884459/article/details/113887113}
-    seven: ${ARTICLE_URL_SEVEN:https://blog.csdn.net/weixin_45884459/article/details/112275198}
-    eight: ${ARTICLE_URL_EIGHT:https://blog.csdn.net/weixin_45884459/article/details/111590698}
-    nine: ${ARTICLE_URL_NINE:https://blog.csdn.net/weixin_45884459/article/details/109384150}
-    ten: ${ARTICLE_URL_TEN:https://blog.csdn.net/weixin_45884459/article/details/106840974}
+    seven: ${ARTICLE_URL_SEVEN:https://blog.csdn.net/weixin_44241243/article/details/120344739}
+    eight: ${ARTICLE_URL_EIGHT:https://blog.csdn.net/weixin_44241243/article/details/121564775}
+    nine: ${ARTICLE_URL_NINE:https://blog.csdn.net/weixin_44241243/article/details/123637076}
+    ten: ${ARTICLE_URL_TEN:https://blog.csdn.net/weixin_44241243/article/details/123838995}
 log:
   path: ${LOG_PATH:E:/log/go-million}
 

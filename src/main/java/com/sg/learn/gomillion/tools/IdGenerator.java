@@ -9,6 +9,7 @@ import javax.annotation.PostConstruct;
 
 @Component
 public class IdGenerator {
+
     @Value("${snowflake.dataCenterId}")
     private long dataCenterId;
     @Value("${snowflake.workerId}")
